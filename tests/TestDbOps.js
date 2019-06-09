@@ -3,9 +3,8 @@
  * 
  * Adds the test data to the collection
  */
-process.env.DB_URI = "mongodb://ds059316.mlab.com:59316/acmetravel"
-process.env.DB_USER = "acloudfan"
-process.env.DB_PASSWORD = "acloudfan" 
+process.env.DB_URI = "mongodb://root:root@travel28-shard-00-00-p6la4.mongodb.net:27017,travel28-shard-00-01-p6la4.mongodb.net:27017,travel28-shard-00-02-p6la4.mongodb.net:27017/acmetravel?ssl=true&replicaSet=travel28-shard-0&authSource=admin&retryWrites=true&w=majority"
+
 
 //Test#1  Insert the Vacation data
 var db = require('../db/vacations')

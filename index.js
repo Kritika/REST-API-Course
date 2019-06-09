@@ -1,7 +1,5 @@
 
-process.env.DB_URI = "set this "
-process.env.DB_USER = "set this" /**provide the user id */
-process.env.DB_PASSWORD = "set this" /**provide the password */
+process.env.DB_URI = "mongodb://root:root@travel28-shard-00-00-p6la4.mongodb.net:27017,travel28-shard-00-01-p6la4.mongodb.net:27017,travel28-shard-00-02-p6la4.mongodb.net:27017/acmetravel?ssl=true&replicaSet=travel28-shard-0&authSource=admin&retryWrites=true&w=majority"
 
 var express = require('express')
 var bodyParser = require('body-parser')
