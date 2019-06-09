@@ -1,6 +1,6 @@
 {
   "name": "uridemo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is part of the course on \"REST API Development\"",
   "main": "index.js",
   "scripts": {
@@ -26,5 +26,8 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "mongoose": "^4.6.3"
+  },
+  "directories": {
+    "test": "tests"
   }
 }

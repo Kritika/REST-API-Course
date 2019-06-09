@@ -11,7 +11,7 @@
 //process.env.DB_PASSWORD = "test";//acloudfan" 
 
 // Provide the URI in the right format
-process.env.DB_URI = "mongodb://<user>:<password>@SERVER:PORT/DB-NAME"
+process.env.DB_URI = "mongodb://root:root@travel28-shard-00-00-p6la4.mongodb.net:27017,travel28-shard-00-01-p6la4.mongodb.net:27017,travel28-shard-00-02-p6la4.mongodb.net:27017/acmetravel?ssl=true&replicaSet=travel28-shard-0&authSource=admin&retryWrites=true&w=majority"
 
 //Test#1  Insert the Vacation data
 var db = require('../db/vacations')

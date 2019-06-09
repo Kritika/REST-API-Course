@@ -1,7 +1,7 @@
 
 
 // Provide the URI in the right format
-process.env.DB_URI = "mongodb://<user>:<password>@SERVER:PORT/DB-NAME"
+process.env.DB_URI = "mongodb://root:root@travel28-shard-00-00-p6la4.mongodb.net:27017,travel28-shard-00-01-p6la4.mongodb.net:27017,travel28-shard-00-02-p6la4.mongodb.net:27017/acmetravel?ssl=true&replicaSet=travel28-shard-0&authSource=admin&retryWrites=true&w=majority"
 
 // Following 2 are not needes as the user/password are part of the URI
 //process.env.DB_USER = "set this up" /**provide the user id */
